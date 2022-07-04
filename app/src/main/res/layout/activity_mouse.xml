@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:layout_marginEnd="0dp"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".MouseActivity">
+
+    <TextView
+        android:id="@+id/touchpad"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.9"
+        android:background="@drawable/view_border" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_weight="0.5"
+            android:backgroundTint="#545454"
+            android:text="left" />
+
+
+        <Button
+            android:id="@+id/right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_weight="0.5"
+            android:backgroundTint="#545454"
+            android:text="right" />
+    </LinearLayout>
+</LinearLayout>
+

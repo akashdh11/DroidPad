@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DroidPad</string>
+    <string name="devices_label">Connect to:</string>
+    <string name="status_label">Status:</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnecting">Disconnecting…</string>
+    <string name="cross">cross</string>
+    <string name="circle">circle</string>
+    <string name="triangle">triangle</string>
+    <string name="square">square</string>
+    <string name="action_keyboard_title">Keyboard</string>
+    <string name="guide_button">Guide Button</string>
+
+    <item name="tag_pressed" type="id" />
+    <item name="tag_x_pos" type="id" />
+    <item name="tag_y_pos" type="id" />
+
+</resources>
